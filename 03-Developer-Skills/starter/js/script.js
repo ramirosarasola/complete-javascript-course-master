@@ -90,22 +90,22 @@
 
 //obtener info de los arrays. Print to console 'index[i]Celcius in [i] days...index[i]Celcius in [i] days...index[i]Celcius in [i] days...'
 
-let forecasted = [17,21,23];
+// let forecasted = [17,21,23];
 
-const printForecast = function (arr){
-    // let days = 1;
-    let str = "";
+// const printForecast = function (arr){
+//     // let days = 1;
+//     let str = "";
 
-    for (let i = 0; i < arr.length; i++){
-        // let days = i+1;
-        // debugger;
-        str += `${arr[i]} Celcius Grades in ${i+1} days... `
-        // days++;
-    }
-    console.log("... " + str)
-}
+//     for (let i = 0; i < arr.length; i++){
+//         // let days = i+1;
+//         // debugger;
+//         str += `${arr[i]} Celcius Grades in ${i+1} days... `
+//         // days++;
+//     }
+//     console.log("... " + str)
+// }
 
-printForecast(forecasted);
+// printForecast(forecasted);
 
 
 
